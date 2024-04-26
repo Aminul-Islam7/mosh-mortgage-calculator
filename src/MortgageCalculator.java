@@ -12,8 +12,7 @@ public class MortgageCalculator {
     this.period = period;
   }
 
-  public double calculateBalance(
-      short numberOfPaymentsMade) {
+  public double calculateBalance(short numberOfPaymentsMade) {
     float monthlyInterest = getMonthlyInterest();
     short numberOfPayments = getNumberOfPayments();
 
